@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/pokedex-mini/', // replace with your own repo name
+  base: '/Pokedex-mini-project/', // matches your actual GitHub repo name exactly, case-sensitive
   plugins: [react()],
 })
